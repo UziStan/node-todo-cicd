@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-todo-app
-          image: deejayz/node-todo-test:latest
+          image: deejayz/node-todo-list:latest
           ports:
             - containerPort: 8000
           env:
