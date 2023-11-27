@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: node-todo-app
-        template: https://github.com/UziStan/node-todo-cicd
+  template:
     metadata:
       labels:
         app: node-todo-app
